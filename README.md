@@ -1,6 +1,6 @@
 # Equipe 15
 
-Modificado por Júlio César
+Modificado por Júlio César pela segunda vez, só estou praticando! Não me julgue!
 
 Equipe formada por: jotace-br, @brunomacedom e @gabrie2448
 
