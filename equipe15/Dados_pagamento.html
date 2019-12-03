@@ -34,10 +34,7 @@
                                         <font color="#154ecd" size="4">Telefone </font>
                                         <font color="red" size="4">*</font>
                                     </td>
-                                    <td width="310" height="20">
-                                            <font color="#154ecd" size="4">preço do curso </font>
-                                        </td>
-
+                                
                                 </tr>
                                 <tr>
                                     <td width="330" height="20">
@@ -49,10 +46,6 @@
                                     <td width="310" height="20">
                                         <input type="number" name="telefone" size="35" class="txtarea">
                                     </td>
-                                    <td width="310" height="20">
-                                            <input type="number" name="preço do curso" size="35" class="txtarea">
-                                        </td>
-                                    
                                 </tr>                           
                             </table>
                             <table border="0"></br>
@@ -108,7 +101,7 @@
                                 <tr>
                                     <td>
                                     <input type="reset" value="Cancelar" />
-                                    <input type="submit" name="enviar" value="comprar">
+                                    <input type="submit" name="enviar" value="comprar" onclick="Evento()">
                                     </td>
                                 </tr>
                             </table>
@@ -118,5 +111,12 @@
             </div>
            
         </div>
+        <script>
+    function Evento() {
+        alert('Curso comprado com sucesso!')
+    }
+
+</script>
+      
     </body>
 </html>
