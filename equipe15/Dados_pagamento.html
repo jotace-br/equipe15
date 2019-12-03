@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8">
         <link href="estilo.css" rel="stylesheet" type="text/css" media="all">       
-        <title>Formulário</title>
+        <title>Finalizar a Compra</title>
     </head>
     <body>
         <div id="container">           
             <div id="corpo">               
                 <section>                   
                     <article class="artigo">
-                        <form method="POST" action="processacont.php">
+                        <form method="POST" action="cursos.html">
                             <input type="hidden" name="operacao" value="incluir">
                             <table border="0">
                                 <tr>
@@ -62,14 +62,16 @@
                                         &nbsp; &nbsp;<input type="checkbox" name="interesse[]" value="Curso à distancia">
                                     </td>   
                                     <td height="20">
-                                        &nbsp; &nbsp;<input type="checkbox" name="interesse[]" value="Curso semi-presencial">
+                                        &nbsp; &nbsp;<font color="#154ecd" size="4">Curso à distancia</font>
                                     </td>
+                                    
                                    
                                 </tr>
                                 <tr>
-                                    <td height="20">
-                                        &nbsp; &nbsp;<font color="#154ecd" size="4">Curso à distancia</font>
-                                    </td>
+                                        <td height="20">
+                                                &nbsp; &nbsp;<input type="checkbox" name="interesse[]" value="Curso semi-presencial">
+                                            </td>
+                                   
                                     <td height="20">
                                         &nbsp; &nbsp;<font color="#154ecd" size="4">Curso semi-presencial</font>
                                     </td>
@@ -95,12 +97,11 @@
                                 </tr>
                             </table></br></br>
                             <table border="0">
-                                <tr>                       
-                                    <td width="420" height="50"> ( * ) Campos obrigatórios </td>                       
-                                </tr>
+                              
                                 <tr>
                                     <td>
-                                    <input type="reset" value="Cancelar" />
+                                            
+                                    <a href="cursos.html"> <input type="submit" name="Cancelar" value="Voltar" onclick=""></a>
                                     <input type="submit" name="enviar" value="comprar" onclick="Evento()">
                                     </td>
                                 </tr>
