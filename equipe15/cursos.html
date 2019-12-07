@@ -1,124 +1,206 @@
-<!DOCTYPE html>
-<html lang="Pt-br">
+<!DOCTYPE HTML>
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cursos disponíveis</title>
+    <title>VRawr - Cursos & Eventos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body>
-    <center><a href="index.html"><img src="img/VRawr-logo.png" id="logo"></a><br>
-        <a href="#cursos_certificacao">Nossos cursos com certificado</a><br>
-        <a href="#eventos">Nossos eventos promovidos pela empresa</a><br>
-    </center>
-    <center>
-        <hr>
-        <h2 id="cursos_certificacao">Cursos de certificação</h2>
-        <hr>
-        <br><br>
-        <button type="text" onclick="Evento3()">Atualizar as informações do cursos</button>
-        <br>
-        <br>
-        <h3>Curso Desenvolvedor VRaptor Completo + 10 de projetos.</h3>
-        <p>O treinamento de VRaptor mais vendido no Brasil</p>
-        <h3>O que você aprenderá</h3>
-        <p>Aprenderá a criar projetos ágeis utilizando o VRaptor.
-            Desde técnicas de Front End até Back End.
-            São 14 cursos do ABSOLUTO zero ao profissional.</p>
-        <p>Conquiste a liberdade financeira trabalhando de casa.</p>
-        <p>Crie projetos web profissionais com as linguagens
-            nas suas últimas versões. HTML5, CSS3, Javascript,
-            ECMAScript 6, Bootstrap, PHP, PHP com AJAX e muito mais.</p>
-        <p>Estudo nos dias e horários que você quiser.</p>
-        <br>
-        <p>Apenas R$19,90! Clique aqui para comprar: <form><a href="Dados_pagamento.html" target="_blank">LINK PARA
-                    PAGAMENTO DE CURSO</a></form><br>
-                    <input type="submit" name="enviar" value="APAGAR CURSO" onclick="Evento()">
-    </center>
-    <hr>
-    <br><br>
+<body class="is-preload">
 
-    <center>
-            <button type="text" onclick="Evento3()">Atualizar as informações do cursos</button>
-            <br>
-            <br>
-        <h3>Apostila Web ágil com VRaptor, Hibernate e AJAX</h3>
-        <p>Aprenda tudo sobre os frameworks para desenvolvimento web
-            e como utilizá-los para seu sucesso.
-        </p>
-        <h3>O que você aprenderá</h3>
-        <p>Tudo que vcê precisa saber para construir
-            aplicações modernas para Web</p>
-        <p>Últimos recursos de HTML, CSS, Javascript e vários frameworks</p>
-        <p>Aprender CSS 3 e como aplicar estilo usando as
-            últimas tecnologias: CSS Grid, Flexbox e muito mais</p>
-        <p>Projeto de aplicações reais</p>
-        <br>
-        <p>Apenas R$24,99! Clique aqui para comprar:<form><a href="Dados_pagamento.html" target="_blank">LINK PARA
-                    PAGAMENTO DE CURSO</a></form><br>
-                    <input type="submit" name="enviar" value="APAGAR CURSO" onclick="Evento()">
+    <!-- Header -->
+    <header id="header">
+        <a class="logo" href="index.html">VRawr</a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
 
-    </center>
-    <hr>
-    <center>
-        <h2 id="eventos">Eventos</h2>
-        <hr>
-       <br>
-        <br>
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="artigos.html">Artigos</a></li>
+            <li><a href="cursos.html">Nossos cursos e eventos</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            <li><a href="elements.html">Elementos de página</a></li>
+            <li><a href="generic.html">Página Genérica</a></li>
+        </ul>
+    </nav>
 
-        <button type="text" onclick="Evento4()">Atualizar as informações do cursos</button>
-            <br>
-            <br>
+    <!-- Heading -->
+    <!-- CTA -->
+    <section id="cta" class="wrapper">
+        <div class="inner">
+            <h2>Nossos cursos e eventos</h2>
+            <p>Fique a vontade e venha participar do que há de melhor na VRawr!</p>
+        </div>
+    </section>
 
-        <h3>VRaptor Celebration 2020</h3>
-        <p>
-            Celebre a chegada de 2020 no maior Réveillon VRaptor,
-            com atrações nacionais de Hugo Barra (gerente mundial
-            do android), buffet completo e celulares grátis!
-            garanta <b>agora</b> seu ingresso!
-        </p>
-        <h3>Sobre o palestrante</h3>
-        <p>Enquanto estava cursando Engenharia Elétrica na Universidade Federal de Minas Gerais, Hugo Barras conheceu
-            detalhes sobre o processo de seleção do Instituto de Tecnologia de Massachusetts (MIT). Um ano depois,
-            entrou para o MIT, onde cursou Ciências da Computação e chegou a trabalhar no laboratório de inteligência
-            artificial do próprio instituto. Não demorou muito para que fosse descoberto pelo Google e convidado a
-            integrar uma das equipes da gigante da internet.</p>
-        <p>Barra começou adaptando serviços da empresa para a plataforma móvel, como o Gmail e, com o passar do tempo,
-            conquistou novos cargos, chegando ao atual: gerente mundial do Android. E o SO do Google está em boas mãos.
-            Em entrevista para a revista Superinteressante, o mineiro de 35 anos declarou querer “ter certeza de que o
-            sistema operacional é o melhor e mais rico possível”.</p>
-        <h3>Localização</h3>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.640481480663!2d-35.69802218520887!3d-9.626191293108064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x70146806a3d4059%3A0x6e4f017f28b43e5b!2sR.%20Bacharel%20Virg%C3%ADlio%20da%20Rocha%20Marques%20-%20Cruz%20das%20Almas%2C%20Macei%C3%B3%20-%20AL!5e0!3m2!1spt-BR!2sbr!4v1575328846621!5m2!1spt-BR!2sbr"
-            width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        <h3>Horário</h3>
-        <p>31 de dez. de 2019 22:00 - 1 de jan. de 2020 09:00</p>
-        <button type="text" onclick="Evento2()">Participar</button>
-        <br>
-        <br>
-        <button type="text" onclick="Evento2()">Apagar Evento</button>
-    </center>
-    <hr>
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <div class="content">
+                <header>
+                    <h2>Nossos Cursos com certificado</h2>
+                </header>
 
-    <center><a href="#logo">Voltar ao topo</a></center>
+                <div>
+                    <input type="text" name="pesquisa_cursoevento" id="pesquisa_cursoevento" value=""
+                        placeholder="Pesquisar curso ou evento...">
+                </div>
+
+                <hr />
+                <h3>Curso Desenvolvedor VRaptor Completo + 10 de projetos</h3>
+                <p>O treinamento de VRaptor mais vendido no Brasil!</p>
+                <h4>O que você aprenderá</h4>
+                <p>Aprenderá a criar projetos ágeis utilizando o VRaptor.
+                    Desde técnicas de Front End até Back End.
+                    São 14 cursos do ABSOLUTO zero ao profissional.</p>
+                <p>Conquiste a liberdade financeira trabalhando de casa.</p>
+                <p>Crie projetos web profissionais com as linguagens
+                    nas suas últimas versões. HTML5, CSS3, Javascript,
+                    ECMAScript 6, Bootstrap, PHP, PHP com AJAX e muito mais.</p>
+                <p>Estudo nos dias e horários que você quiser.</p>
+                <p>Apenas R$19,90! Clique <a href="DadosPagamento.html">abaixo</a> para comprar </p><br>
+                <a href="DadosPagamento.html" class="button primary fit small" target="_blank">Comprar curso</a>
+                <input type="submit" class="button fit small" name="enviar" value="Apagar Curso"
+                    onclick="EventoApagarCurso()">
+                <hr />
+                <h3>Apostila Web ágil com VRaptor, Hibernate e AJAX</h3>
+                <p>Aprenda tudo sobre os frameworks para desenvolvimento web
+                    e como utilizá-los para seu sucesso.</p>
+                <h4>O que você aprenderá</h4>
+                <p>Tudo que vcê precisa saber para construir
+                    aplicações modernas para Web</p>
+                <p>Últimos recursos de HTML, CSS, Javascript e vários frameworks</p>
+                <p>Aprender CSS 3 e como aplicar estilo usando as
+                    últimas tecnologias: CSS Grid, Flexbox e muito mais</p>
+                <p>Projeto de aplicações reais</p>
+                <p>Apenas R$24,99! Clique <a href="DadosPagamento.html">abaixo</a> para comprar </p><br>
+                <a href="DadosPagamento.html" class="button primary fit small" target="_blank">Comprar curso</a>
+                <input type="submit" class="button fit small" name="enviar" value="Apagar Curso"
+                    onclick="EventoApagarCurso()">
+                <hr />
+                <br>
+                <header>
+                    <h2>Nossos Próximos Eventos</h2>
+                </header>
+                <hr />
+                <h3>VRaptor Celebration 2020</h3>
+                <p>
+                    Celebre a chegada de 2020 no maior Réveillon VRaptor,
+                    com atrações nacionais de Hugo Barra (gerente mundial
+                    do android), buffet completo e celulares grátis!
+                    garanta <b>agora</b> seu ingresso!
+                </p>
+                <h4>Sobre o palestrante</h4>
+                <p>Enquanto estava cursando Engenharia Elétrica na Universidade Federal de Minas Gerais, Hugo Barras
+                    conheceu
+                    detalhes sobre o processo de seleção do Instituto de Tecnologia de Massachusetts (MIT). Um ano
+                    depois,
+                    entrou para o MIT, onde cursou Ciências da Computação e chegou a trabalhar no laboratório de
+                    inteligência
+                    artificial do próprio instituto. Não demorou muito para que fosse descoberto pelo Google e convidado
+                    a
+                    integrar uma das equipes da gigante da internet.</p>
+                <p>Barra começou adaptando serviços da empresa para a plataforma móvel, como o Gmail e, com o passar do
+                    tempo,
+                    conquistou novos cargos, chegando ao atual: gerente mundial do Android. E o SO do Google está em
+                    boas mãos.
+                    Em entrevista para a revista Superinteressante, o mineiro de 35 anos declarou querer “ter certeza de
+                    que o
+                    sistema operacional é o melhor e mais rico possível”.</p>
+                <h4>Localização</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.640481480663!2d-35.69802218520887!3d-9.626191293108064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x70146806a3d4059%3A0x6e4f017f28b43e5b!2sR.%20Bacharel%20Virg%C3%ADlio%20da%20Rocha%20Marques%20-%20Cruz%20das%20Almas%2C%20Macei%C3%B3%20-%20AL!5e0!3m2!1spt-BR!2sbr!4v1575328846621!5m2!1spt-BR!2sbr"
+                    width="1010" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <h4>Horário</h4>
+                <p>31 de dez. de 2019 22:00 - 1 de jan. de 2020 09:00</p>
+                <button type="text" class="button primary fit small"
+                    onclick="EventoInscricaoFeita()">Participar</button>
+                <button type="text" class="button fit small" onclick="EventoApagarEvento()">Apagar Evento</button>
+                <br><br><br>
+                <hr />
+                <h2>Opções de desenvolvedor</h2>
+
+                <button type="text" class="button fit small" onclick="EventoAtualizarCurso()">Atualizar um
+                    curso</button>
+                <button type="text" class="button fit small" onclick="EventoAtualizarEvento()">Atualizar um
+                    evento</button>
+                <a href="criarcurso.html" class="button primary fit small" target="_blank">Criar curso</a>
+                <a href="criarevento.html" class="button primary fit small" target="_blank">Criar evento</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="content">
+                <section>
+                    <h3>Sobre nós</h3>
+                    <p>Desde o dia 25/11/19, empresas de todo o mundo contam com a VRawr para a criação de um framework
+                        para os seus produtos, processos e sistemas. Além disso, utilizamos o nosso conhecimento para
+                        ampliar o conhecimento do programador.</p>
+                </section>
+                <section>
+                    <h4>Categorias</h4>
+                    <ul class="alt">
+                        <li><a href="Contato.html">Contato</a></li>
+                        <li><a href="Localização.html">Localização</a></li>
+                        <li><a href="PoliticaPrivacidade.html">Política de Privacidade</a></li>
+                        <li><a href="DireitosReservados.html">Direitos Reservados</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Siga nossas redes sociais</h4>
+                    <ul class="plain">
+                        <li><a href="https://twitter.com/"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+                        <li><a href="https://www.facebook.com/"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+                        <li><a href="https://instagram.com/"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+                        <li><a href="https://github.com/ifal-riolargo/equipe15"><i
+                                    class="icon fa-github">&nbsp;</i>Github</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="copyright">
+                &copy; VRawr. IFAL Campus <a href="https://www2.ifal.edu.br/campus/site/campus_riolargo">Rio Largo</a>,
+                Todos os direitos<a href="DireitosReservados.html"> reservados</a>.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        function EventoApagarCurso() {
+            alert('Curso apagado com sucesso!')
+        }
+        function EventoApagarEvento() {
+            alert('Evento apagado com sucesso!')
+        }
+        function EventoAtualizarCurso() {
+            alert('Curso atualizado com sucesso!')
+        }
+        function EventoAtualizarEvento() {
+            alert('Evento atualizado com sucesso!')
+        }
+        function EventoInscricaoFeita() {
+            alert('Inscrição feita com sucesso!')
+        }
+    </script>
+
 </body>
-<script>
-    function Evento() {
-        alert('Curso apagado com sucesso')
-    }
-    function Evento3() {
-        alert('Curso atualizado com sucesso')
-    }
-
-    function Evento2() {
-        alert('Evento apagado com sucesso')
-    }
-    function Evento4() {
-        alert('Evento atualizado  com sucesso')
-    }
-
-</script>
 
 </html>
