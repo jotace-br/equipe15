@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <title>VRawr - Pagamento</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a class="logo" href="index.html">VRawr</a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="artigos.html">Artigos</a></li>
+            <li><a href="cursos.html">Nossos cursos e eventos</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            <li><a href="elements.html">Elementos de página</a></li>
+            <li><a href="generic.html">Página Genérica</a></li>
+        </ul>
+    </nav>
+
+    <!-- Heading -->
+    <div id="heading">
+        <h1>Pagamento</h1>
+    </div>
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <div class="content">
+                <header>
+                    <h2>Efetue o pagamento</h2>
+                </header>
+                <div id="container">
+                    <div id="corpo">
+                        <section>
+                            <article class="artigo">
+                                <form method="POST" action="cursos.html">
+                                    <input type="hidden" name="operacao" value="incluir">
+                                    <h3>&nbsp;Finalizar Compra</h3>
+                                    <p>NOME<sup>*</sup> <input type="text" name="name" id="name" value=""
+                                            placeholder="Nome"></p>
+                                    <p>NOME DO CURSO<sup>*</sup> <input type="text" name="name" id="name" value=""
+                                            placeholder="Nome do curso"></p>
+                                    <p>TELEFONE<sup>*</sup> <input type="text" name="name" id="name" value=""
+                                            placeholder="Telefone"></p>
+
+                                    <h3>Qual tipo de curso deseja cursar?</h3>
+
+
+                                    <div>
+                                        <input type="radio" id="curso-presencial" name="radio" checked="">
+                                        <label for="curso-presencial">Curso Presencial</label>
+
+                                        <input type="radio" id="curso-semipresencial" name="radio">
+                                        <label for="curso-semipresencial">Curso Semi-Presencial</label>
+
+                                        <input type="radio" id="curso-adistancia" name="radio">
+                                        <label for="curso-adistancia">Curso à Distância</label>
+                                    </div>
+                                    <br>
+
+                                    <h3>Mais informações</h3>
+
+                                    <label>
+                                        <div class="col-12">
+                                            <textarea name="textarea" id="textarea"
+                                                placeholder="Digite aqui mais informações sobre o curso que escolheu"
+                                                rows="6"></textarea>
+                                        </div>
+                                    </label>
+
+                                    <a href="cursos.html"> <input type="submit" name="Cancelar" value="Voltar"
+                                            onclick=""></a>
+                                    <input type="submit" name="enviar" value="Comprar" onclick="Evento()">
+                                </form>
+                            </article>
+                        </section>
+                    </div>
+                </div>
+
+                <script>
+                    function Evento() {
+                        alert('Curso comprado com sucesso!')
+                    }
+                </script>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="content">
+                <section>
+                    <h3>Sobre nós</h3>
+                    <p>Desde o dia 25/11/19, empresas de todo o mundo contam com a VRawr para a criação de um framework
+                        para os seus produtos, processos e sistemas. Além disso, utilizamos o nosso conhecimento para
+                        ampliar o conhecimento do programador.</p>
+                </section>
+                <section>
+                    <h4>Categorias</h4>
+                    <ul class="alt">
+                        <li><a href="Contato.html">Contato</a></li>
+                        <li><a href="Localização.html">Localização</a></li>
+                        <li><a href="PoliticaPrivacidade.html">Política de Privacidade</a></li>
+                        <li><a href="DireitosReservados.html">Direitos Reservados</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Siga nossas redes sociais</h4>
+                    <ul class="plain">
+                        <li><a href="https://twitter.com/"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+                        <li><a href="https://www.facebook.com/"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+                        <li><a href="https://instagram.com/"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+                        <li><a href="https://github.com/ifal-riolargo/equipe15"><i
+                                    class="icon fa-github">&nbsp;</i>Github</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="copyright">
+                &copy; VRawr. IFAL Campus <a href="https://www2.ifal.edu.br/campus/site/campus_riolargo">Rio Largo</a>,
+                Todos os direitos<a href="DireitosReservados.html"> reservados</a>.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
