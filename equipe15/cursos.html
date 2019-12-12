@@ -68,8 +68,13 @@
                 <p>Estudo nos dias e horários que você quiser.</p>
                 <p>Apenas R$19,90! Clique <a href="DadosPagamento.html">abaixo</a> para comprar </p><br>
                 <a href="DadosPagamento.html" class="button primary fit small" target="_blank">Comprar curso</a>
-                <input type="submit" class="button fit small" name="enviar" value="Apagar Curso"
+                <a href="atualizarcurso1.html" class="button fit small" target="_blank">Atualizar curso</a>
+                
+                <form action="index.html">
+                    <input type="submit" class="button primary fit small" name="enviar" value="Apagar Curso"
                     onclick="EventoApagarCurso()">
+                </form>
+
                 <hr />
                 <h3>Apostila Web ágil com VRaptor, Hibernate e AJAX</h3>
                 <p>Aprenda tudo sobre os frameworks para desenvolvimento web
@@ -82,9 +87,14 @@
                     últimas tecnologias: CSS Grid, Flexbox e muito mais</p>
                 <p>Projeto de aplicações reais</p>
                 <p>Apenas R$24,99! Clique <a href="DadosPagamento.html">abaixo</a> para comprar </p><br>
-                <a href="DadosPagamento.html" class="button primary fit small" target="_blank">Comprar curso</a>
-                <input type="submit" class="button fit small" name="enviar" value="Apagar Curso"
+                <a href="DadosPagamento.html" class="button primary fit small" target="_blank">Comprar curso</a><br>
+                <a href="atualizarcurso2.html" class="button fit small" target="_blank">Atualizar curso</a>
+                
+                <form action="index.html">
+                <input type="submit" class="button primary fit small" name="enviar" value="Apagar Curso"
                     onclick="EventoApagarCurso()">
+                </form>
+
                 <hr />
                 <br>
                 <header>
@@ -121,19 +131,20 @@
                     width="1010" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 <h4>Horário</h4>
                 <p>31 de dez. de 2019 22:00 - 1 de jan. de 2020 09:00</p>
+                
+                <form action="index.html">
                 <button type="text" class="button primary fit small"
                     onclick="EventoInscricaoFeita()">Participar</button>
-                <button type="text" class="button fit small" onclick="EventoApagarEvento()">Apagar Evento</button>
+                </form>
+                    <a href="atualizarevento1.html" class="button fit small" target="_blank">Atualizar evento</a>
+                <form action="index.html">
+                    <button type="text" class="button primary fit small" onclick="EventoApagarEvento()">Apagar Evento</button>
+                </form>
                 <br><br><br>
                 <hr />
                 <h2>Opções de desenvolvedor</h2>
-
-                <button type="text" class="button fit small" onclick="EventoAtualizarCurso()">Atualizar um
-                    curso</button>
-                <button type="text" class="button fit small" onclick="EventoAtualizarEvento()">Atualizar um
-                    evento</button>
                 <a href="criarcurso.html" class="button primary fit small" target="_blank">Criar curso</a>
-                <a href="criarevento.html" class="button primary fit small" target="_blank">Criar evento</a>
+                <a href="criarevento.html" class="button fit small" target="_blank">Criar evento</a>
             </div>
         </div>
 
@@ -189,12 +200,6 @@
         }
         function EventoApagarEvento() {
             alert('Evento apagado com sucesso!')
-        }
-        function EventoAtualizarCurso() {
-            alert('Curso atualizado com sucesso!')
-        }
-        function EventoAtualizarEvento() {
-            alert('Evento atualizado com sucesso!')
         }
         function EventoInscricaoFeita() {
             alert('Inscrição feita com sucesso!')
