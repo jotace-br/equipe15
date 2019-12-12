@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <title>VRawr - Atualizar evento</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a class="logo" href="index.html">VRawr</a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="artigos.html">Artigos</a></li>
+            <li><a href="cursos.html">Nossos cursos e eventos</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            <li><a href="elements.html">Elementos de página</a></li>
+            <li><a href="generic.html">Página Genérica</a></li>
+        </ul>
+    </nav>
+
+    <!-- Heading -->
+    <div id="heading">
+        <h1>Atualização de eventos</h1>
+    </div>
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <div class="content">
+                <header>
+                    <h2>Atualize o evento</h2>
+                </header>
+                <div id="container">
+                    <div id="corpo">
+                        <section>
+                            <article class="artigo">
+                                <form method="POST" action="cursos.html">
+                                    <input type="hidden" name="operacao" value="incluir">
+                                    <label>NOME DO EVENTO<sup>*</sup> <input type="text" name="name" id="name"
+                                            value="VRAPTOR CELEBRATION 2020"
+                                            placeholder=""></label>
+
+                                    <label>ATUALIZAR DESCRIÇÃO DO EVENTO<sup>*</sup>
+                                        <div class="col-12">
+                                            <textarea name="textarea" id="textarea" placeholder="" rows="6">
+Celebre a chegada de 2020 no maior Réveillon VRaptor, com atrações nacionais de Hugo Barra (gerente mundial do android), buffet completo e celulares grátis! garanta agora seu ingresso!
+                                                
+SOBRE O PALESTRANTE
+Enquanto estava cursando Engenharia Elétrica na Universidade Federal de Minas Gerais, Hugo Barras conheceu detalhes sobre o processo de seleção do Instituto de Tecnologia de Massachusetts (MIT). Um ano depois, entrou para o MIT, onde cursou Ciências da Computação e chegou a trabalhar no laboratório de inteligência artificial do próprio instituto. Não demorou muito para que fosse descoberto pelo Google e convidado a integrar uma das equipes da gigante da internet.
+                                                
+Barra começou adaptando serviços da empresa para a plataforma móvel, como o Gmail e, com o passar do tempo, conquistou novos cargos, chegando ao atual: gerente mundial do Android. E o SO do Google está em boas mãos. Em entrevista para a revista Superinteressante, o mineiro de 35 anos declarou querer “ter certeza de que o sistema operacional é o melhor e mais rico possível”.
+                                                                                              
+HORÁRIO
+31 de dez. de 2019 22:00 - 1 de jan. de 2020 09:00</textarea>
+                                        </div>
+                                    </label>
+
+                                    <a href="cursos.html"> <input type="submit" name="Cancelar" value="Voltar"
+                                            onclick=""></a>
+                                    <input type="submit" name="enviar" value="Atualizar" onclick="Evento()">
+                                </form>
+                            </article>
+                        </section>
+                    </div>
+                </div>
+
+                <script>
+                    function Evento() {
+                        alert('Atualização feita com sucesso!')
+                    }
+                </script>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="content">
+                <section>
+                    <h3>Sobre nós</h3>
+                    <p>Desde o dia 25/11/19, empresas de todo o mundo contam com a VRawr para a criação de um framework
+                        para os seus produtos, processos e sistemas. Além disso, utilizamos o nosso conhecimento para
+                        ampliar o conhecimento do programador.</p>
+                </section>
+                <section>
+                    <h4>Categorias</h4>
+                    <ul class="alt">
+                        <li><a href="Contato.html">Contato</a></li>
+                        <li><a href="Localização.html">Localização</a></li>
+                        <li><a href="PoliticaPrivacidade.html">Política de Privacidade</a></li>
+                        <li><a href="DireitosReservados.html">Direitos Reservados</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Siga nossas redes sociais</h4>
+                    <ul class="plain">
+                        <li><a href="https://twitter.com/"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+                        <li><a href="https://www.facebook.com/"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+                        <li><a href="https://instagram.com/"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+                        <li><a href="https://github.com/ifal-riolargo/equipe15"><i
+                                    class="icon fa-github">&nbsp;</i>Github</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="copyright">
+                &copy; VRawr. IFAL Campus <a href="https://www2.ifal.edu.br/campus/site/campus_riolargo">Rio Largo</a>,
+                Todos os direitos<a href="DireitosReservados.html"> reservados</a>.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
