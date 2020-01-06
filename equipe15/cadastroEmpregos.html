@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-	<title>Lista de Empregos</title>
+	<title>VRawr - Cadastrar emprego</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="" />
@@ -34,52 +34,44 @@
 
 	<!-- Heading -->
 	<div id="heading">
-		<h1>Empregos Disponíveis</h1>
+		<h1>Cadastrar emprego</h1>
 	</div>
 
 	<!-- Main -->
 	<section id="main" class="wrapper">
-		<div class="inner">
-			<div class="content">
-				<header>
-					<h2>Oportunidade de Emprego</h2>
-				</header>
-				<hr />
-				<h3>Desenvolvedor C#.NET-5</h3>
-				<p>
-					Nosso sistema funciona com backend em C# e frontend em React.
-					Buscamos alguém com boa capacidade de integração com o time, conhecimento de
-					banco de dados e organização de códigos. Curte trabalhar com C# e é bem familiarizado
-					com criação de APIs REST? Então seu lugar é na nossa equipe!</p>
-				<a href="atualizareemprego1.html" class="button fit small" target="_blank">Atualizar Emprego</a>
+        <div class="inner">
+            <div class="content">
+                <header>
+                    <h2>Criar emprego</h2>
+                </header>
+                <form method="POST" action="listaEmpregos.html">
+                    <p>Nome do curso <input type="text" name="username" size="52" maxlength="60" /></p>
 
-				<form action="index.html">
-					<input type="submit" class="button primary fit small" name="enviar" value="Apagar emprego"
-						onclick="EventoApagarEmprego()">
-				</form>
-				<hr />
-				<h3>Data Engineer</h3>
-				<p>Você curte tecnologia e quer novos desafios? Queremos te conhecer! Temos oportunidades para diferentes
-					senioridades!
-					O que você precisa saber para esta vaga? Programar.. Mas com paixão! Ser crítico em relação à
-					qualidade de código;
-					Ter experiência com Hadoop, Spark, Kafka, Scala; Ser colaborativo e gostar de desafios!</p>
-				<a href="atualizaremprego2.html" class="button fit small" target="_blank">Atualizar Emprego</a>
+                    <h3>Informações adicionais</h3>
 
-				<form action="index.html">
-					<input type="submit" class="button primary fit small" name="enviar" value="Apagar emprego"
-						onclick="EventoApagarEmprego()">
-				</form>
-				<hr />
-				<h2>Tem uma vaga de Emprego para divulgar? Envie para:
-					<p><a href="mailto:contato@vrawr.com.br">contato@vrawr.com.br</a></p>
-				</h2>
-				<hr />
-                <h2>Opções de desenvolvedor</h2>
-                <a href="cadastroEmpregos.html" class="button primary fit small" target="_blank">Cadastrar emprego</a>
-			</div>
-		</div>
-	</section>
+                    <label>
+                        <div class="col-12">
+                            <textarea name="textarea" id="textarea"
+                                placeholder="Caso desejado, informe mais informações necessárias..."
+                                rows="6"></textarea>
+                        </div>
+                    </label>
+
+                    <a href="listaEmpregos.html">
+                        <input type="submit" name="Cancelar" value="Voltar" onclick=""></a>
+                    <input type="submit" name="enviar" value="Cadastrar emprego" onclick="Evento()">
+
+                </form>
+
+                <script>
+                    function Evento() {
+                        alert('Emprego cadastrado com sucesso!')
+                    }
+                </script>
+
+            </div>
+        </div>
+    </section>
 
 	<!-- Footer -->
 	<footer id="footer">
@@ -124,12 +116,6 @@
 	</footer>
 
 	<!-- Scripts -->
-	<script>
-		function EventoApagarEmprego() {
-			alert('Emprego apagado com sucesso!')
-		}
-	</script>
-	
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
