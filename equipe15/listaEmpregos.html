@@ -8,6 +8,13 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+
+	<style>
+		#emprego-divulgar {
+			display: flex;
+			justify-content: center;
+		}
+	</style>
 </head>
 
 <body class="is-preload">
@@ -33,10 +40,14 @@
 		</ul>
 	</nav>
 
-	<!-- Heading -->
-	<div id="heading">
-		<h1>Empregos Disponíveis</h1>
-	</div>
+	<!-- CTA -->
+	<section id="cta" class="wrapper">
+		<div class="inner">
+			<h2>Empregos disponíveis</h2>
+			<p>“Para o trabalho que gostamos, levantamo-nos cedo e fazêmo-lo com alegria.” <br>
+				― William Shakespeare</p>
+		</div>
+	</section>
 
 	<!-- Main -->
 	<section id="main" class="wrapper">
@@ -60,7 +71,8 @@
 				</form>
 				<hr />
 				<h3>Data Engineer</h3>
-				<p>Você curte tecnologia e quer novos desafios? Queremos te conhecer! Temos oportunidades para diferentes
+				<p>Você curte tecnologia e quer novos desafios? Queremos te conhecer! Temos oportunidades para
+					diferentes
 					senioridades!
 					O que você precisa saber para esta vaga? Programar.. Mas com paixão! Ser crítico em relação à
 					qualidade de código;
@@ -72,12 +84,14 @@
 						onclick="EventoApagarEmprego()">
 				</form>
 				<hr />
-				<h2>Tem uma vaga de Emprego para divulgar? Envie para:
-					<p><a href="mailto:contato@vrawr.com.br">contato@vrawr.com.br</a></p>
+				<h2 style="text-align: center;">Tem uma vaga de Emprego para divulgar?</h2>
+				<h3 style="text-align: center;">Envie para: <a
+						href="mailto:contato@vrawr.com.br">contato@vrawr.com.br</a>
+				</h3>
 				</h2>
 				<hr />
-                <h2>Opções de desenvolvedor</h2>
-                <a href="cadastroEmpregos.html" class="button primary fit small" target="_blank">Cadastrar emprego</a>
+				<h2>Opções de desenvolvedor</h2>
+				<a href="cadastroEmpregos.html" class="button primary fit small" target="_blank">Cadastrar emprego</a>
 			</div>
 		</div>
 	</section>
@@ -130,7 +144,7 @@
 			alert('Emprego apagado com sucesso!')
 		}
 	</script>
-	
+
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
