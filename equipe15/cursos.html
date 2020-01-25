@@ -20,20 +20,17 @@
         </nav>
     </header>
 
-	<!-- Nav -->
-	<nav id="menu">
-		<ul class="links">
-			<li><a href="index.html">Página Principal</a></li>
-			<li><a href="artigos.html">Artigos</a></li>
-			<li><a href="cursos.html">Nossos cursos e eventos</a></li>
-			<li><a href="listaEmpregos.html">Oportunidades de emprego</a></li>
-			<li><a href="Contato.html">Contato</a></li>
-			<li><a href="elements.html">Elementos de página</a></li>
-			<li><a href="generic.html">Página Genérica</a></li>
-		</ul>
-	</nav>
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="artigos.html">Artigos publicados</a></li>
+            <li><a href="cursos.html">Nossos cursos e eventos</a></li>
+            <li><a href="listaEmpregos.html">Oportunidades de emprego</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
 
-    <!-- Heading -->
     <!-- CTA -->
     <section id="cta" class="wrapper">
         <div class="inner">
@@ -46,16 +43,20 @@
     <section id="main" class="wrapper">
         <div class="inner">
             <div class="content">
+                <div>
+                    <ul class="actions">
+                        <input type="text" name="buscar-curso" id="buscar-curso" value=""
+                            placeholder="Digite aqui para buscar um curso ou evento...">
+                        <li><a href="#" class="button primary icon fa-search">Pesquisar</a></li>
+                    </ul>
+                </div>
+
                 <header>
                     <h2>Nossos Cursos com certificado</h2>
                 </header>
 
-                <div>
-                    <input type="text" name="pesquisa_cursoevento" id="pesquisa_cursoevento" value=""
-                        placeholder="Pesquisar curso ou evento...">
-                </div>
-
                 <hr />
+
                 <h3>Curso Desenvolvedor VRaptor Completo + 10 de projetos</h3>
                 <p>O treinamento de VRaptor mais vendido no Brasil!</p>
                 <h4>O que você aprenderá</h4>
@@ -68,13 +69,21 @@
                     ECMAScript 6, Bootstrap, PHP, PHP com AJAX e muito mais.</p>
                 <p>Estudo nos dias e horários que você quiser.</p>
                 <p>Apenas R$19,90! Clique <a href="DadosPagamento.html">abaixo</a> para comprar </p><br>
-                <a href="DadosPagamento.html" class="button primary fit small" target="_blank">Comprar curso</a>
-                <a href="atualizarcurso1.html" class="button fit small" target="_blank">Atualizar curso</a>
 
-                <form action="index.html">
-                    <input type="submit" class="button primary fit small" name="enviar" value="Apagar Curso"
-                        onclick="EventoApagarCurso()">
-                </form>
+                <div>
+                    <ul class="actions">
+                        <a href=" DadosPagamento.html" class="button primary fit small" target="_blank">Comprar
+                            curso</a>
+                        <li><a href="atualizarcurso1.html" class="button fit small" target="_blank">Atualizar curso</a>
+                        </li>
+                        <li>
+                            <form action="index.html">
+                                <input type="submit" class="button fit small" name="enviar" value="Apagar Curso"
+                                    onclick="EventoApagarCurso()">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
 
                 <hr />
                 <h3>Apostila Web ágil com VRaptor, Hibernate e AJAX</h3>
@@ -88,13 +97,23 @@
                     últimas tecnologias: CSS Grid, Flexbox e muito mais</p>
                 <p>Projeto de aplicações reais</p>
                 <p>Apenas R$24,99! Clique <a href="DadosPagamento.html">abaixo</a> para comprar </p><br>
-                <a href="DadosPagamento.html" class="button primary fit small" target="_blank">Comprar curso</a><br>
-                <a href="atualizarcurso2.html" class="button fit small" target="_blank">Atualizar curso</a>
 
-                <form action="index.html">
-                    <input type="submit" class="button primary fit small" name="enviar" value="Apagar Curso"
-                        onclick="EventoApagarCurso()">
-                </form>
+                <div>
+                    <ul class="actions">
+                        <a href="DadosPagamento.html" class="button primary fit small" target="_blank">
+                            Comprar curso</a>
+
+                        <li><a href="atualizarcurso2.html" class="button fit small" target="_blank">
+                                Atualizar curso</a>
+                        </li>
+                        <li>
+                            <form action="index.html">
+                                <input type="submit" class="button fit small" name="enviar" value="Apagar Curso"
+                                    onclick="EventoApagarCurso()">
+                        </li>
+                    </ul>
+                    </form>
+                </div>
 
                 <hr />
                 <br>
@@ -133,18 +152,28 @@
                 <h4>Horário</h4>
                 <p>31 de dez. de 2019 22:00 - 1 de jan. de 2020 09:00</p>
 
-                <form action="index.html">
-                    <button type="text" class="button primary fit small"
-                        onclick="EventoInscricaoFeita()">Participar</button>
-                    <a href="atualizarevento1.html" class="button fit small" target="_blank">Atualizar evento</a>
-                    <button type="text" class="button primary fit small" onclick="EventoApagarEvento()">Apagar
-                        Evento</button>
-                </form>
+                <div>
+                    <ul class="actions">
+                        <button type="text" action="index.html" class="button primary fit small"
+                            onclick="EventoInscricaoFeita()">Participar</button>
+                        <li><a href="atualizarevento1.html" class="button fit small" target="_blank">Atualizar
+                                evento</a></li>
+                        <li><button type="text" class="button fit small" onclick="EventoApagarEvento()">Apagar
+                                Evento</button></li>
+
+                    </ul>
+                </div>
+
                 <br><br><br>
                 <hr />
                 <h2>Opções de desenvolvedor</h2>
-                <a href="criarcurso.html" class="button primary fit small" target="_blank">Criar curso</a>
-                <a href="criarevento.html" class="button fit small" target="_blank">Criar evento</a>
+                <div>
+                    <ul class="actions">
+                        <a href="criarcurso.html" class="button primary fit small" target="_blank">Criar curso</a>
+                        <li>&nbsp;</li>
+                        <a href="criarevento.html" class="button primary fit small" target="_blank">Criar evento</a>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -165,29 +194,32 @@
                 <section>
                     <h4>Categorias</h4>
                     <ul class="alt">
-                        <li><a href="Contato.html">Contato</a></li>
-                        <li><a href="Localização.html">Localização</a></li>
-                        <li><a href="PoliticaPrivacidade.html">Política de Privacidade</a></li>
-                        <li><a href="DireitosReservados.html">Direitos Reservados</a></li>
+                        <li><a href="Contato.html" target="_blank">Contato</a></li>
+                        <li><a href="Localização.html" target="_blank">Localização</a></li>
+                        <li><a href="PoliticaPrivacidade.html" target="_blank">Política de Privacidade</a></li>
+                        <li><a href="DireitosReservados.html" target="_blank">Direitos Reservados</a></li>
                     </ul>
                 </section>
                 <section>
                     <h4>Siga nossas redes sociais</h4>
                     <ul class="plain">
-                        <li><a href="https://twitter.com/"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
-                        <li><a href="https://www.facebook.com/"><i class="icon fa-facebook">&nbsp;</i>Facebook</a>
+                        <li><a href="https://twitter.com/" target="_blank"><i
+                                    class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i
+                                    class="icon fa-facebook">&nbsp;</i>Facebook</a>
                         </li>
-                        <li><a href="#"><i class="icon fa-rss">&nbsp;</i>Feed RSS</a>
+                        <li><a href="https://pt.wikipedia.org/wiki/RSS" target="_blank"><i
+                                    class="icon fa-rss">&nbsp;</i>Feed RSS</a>
                         </li>
-                        <li><a href="https://github.com/ifal-riolargo/equipe15"><i
+                        <li><a href="https://github.com/ifal-riolargo/equipe15" target="_blank"><i
                                     class="icon fa-github">&nbsp;</i>Github</a></li>
                     </ul>
                 </section>
             </div>
             <div class="copyright">
-                &copy; VRawr. IFAL Campus <a href="https://www2.ifal.edu.br/campus/site/campus_riolargo">Rio
-                    Largo</a>,
-                Todos os direitos<a href="DireitosReservados.html"> reservados</a>.
+                &copy; VRawr. <a href="https://www2.ifal.edu.br/campus/site/campus_riolargo" target="_blank">IFAL Campus
+                    Rio Largo</a>,
+                Todos os direitos<a href="DireitosReservados.html" target="_blank"> reservados</a>.
             </div>
         </div>
     </footer>
@@ -208,6 +240,8 @@
         }
         function EventoInscricaoFeita() {
             alert('Inscrição feita com sucesso!')
+            setTimeout(1)
+            window.location = "index.html"
         }
     </script>
 

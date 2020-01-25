@@ -54,15 +54,16 @@ Assim como, só basta também adicionar a dependência do VRaptor em seu *pom.xm
 
 ## Feito com
 
-* [TEMPLATED](https://templated.co/) - Template usado no site.
+* [TEMPLATED](https://templated.co/) - Site de onde fora tirado o template usado no site.
 * [MOTIVAÇÃO](https://www.youtube.com/channel/UC_l6dh0591UQlh7Mo3xCaig) - Nosso motivador principal
 * [FORÇA DE VONTADE](https://www.youtube.com/channel/UCTbW3P2M9fftdFiQojD8t5Q) - Por ensinar de forma curta e grossa que estudar vale a pena
 
 ## Autores
 
-* **Júlio César** - *Instrutor, Programador Front-End e Contribuidor do Projeto* - [jotace-br](https://github.com/jotace-br)
+* **Júlio César** - *Instrutor, Programador Full Stack e Contribuidor do Projeto* - [jotace-br](https://github.com/jotace-br)
 * **Gabriel Ferreira** - *Contribuidor do Projeto e Programador Back-End* - [gabriel2448](https://github.com/gabriel2448)
 * **Bruno Henrique** - *Contribuidor do Projeto e Programador Back-End* - [brunohenriquem](https://github.com/brunohenriquem)
+* **Lenilson Amorim** - *Contribuidor do Projeto e Programador Back-End* - [LenilsonAmorim](https://github.com/LenilsonAmorim)
 
 ## Licença
 
@@ -70,7 +71,7 @@ Este projeto está sobre a licença Apache License 2.0 - veja em [LICENSE.md](LI
 
 ## Agradecimentos
 
-* Obrigado ao [Leonardo Fernandes](https://github.com/leofernandesmo) pelo apoio e ajuda em todas as vezes que pedimos, sem pestanejar uma vez sequer.
+* Congratulações ao [Leonardo Fernandes](https://github.com/leofernandesmo) pelo apoio e ajuda em todas as vezes que pedimos, sem pestanejar uma vez sequer.
 * Agradecemos também ao [Glauber Ferreira](https://github.com/glauberferreira) por sempre tirar nossas dúvidas e nos ensinar aquilo que fora necessário para esse projeto.
 
 > O trabalho em equipe é mais rico, forte e por isso capaz de alcançar as metas mais difíceis!
