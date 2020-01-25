@@ -63,12 +63,19 @@
 					Buscamos alguém com boa capacidade de integração com o time, conhecimento de
 					banco de dados e organização de códigos. Curte trabalhar com C# e é bem familiarizado
 					com criação de APIs REST? Então seu lugar é na nossa equipe!</p>
-				<a href="atualizareemprego1.html" class="button fit small" target="_blank">Atualizar Emprego</a>
 
-				<form action="index.html">
-					<input type="submit" class="button primary fit small" name="enviar" value="Apagar emprego"
-						onclick="EventoApagarEmprego()">
-				</form>
+				<div>
+					<ul class="actions">
+						<a href="atualizareemprego1.html" class="button primary fit small" target="_blank">Atualizar
+							Emprego</a>
+						<li>&nbsp;</li>
+						<input type="submit" class="button fit small" name="enviar" value="Apagar emprego"
+							onclick="EventoApagarEmprego()">
+					</ul>
+				</div>
+
+
+
 				<hr />
 				<h3>Data Engineer</h3>
 				<p>Você curte tecnologia e quer novos desafios? Queremos te conhecer! Temos oportunidades para
@@ -77,12 +84,17 @@
 					O que você precisa saber para esta vaga? Programar.. Mas com paixão! Ser crítico em relação à
 					qualidade de código;
 					Ter experiência com Hadoop, Spark, Kafka, Scala; Ser colaborativo e gostar de desafios!</p>
-				<a href="atualizaremprego2.html" class="button fit small" target="_blank">Atualizar Emprego</a>
 
-				<form action="index.html">
-					<input type="submit" class="button primary fit small" name="enviar" value="Apagar emprego"
-						onclick="EventoApagarEmprego()">
-				</form>
+				<div>
+					<ul class="actions">
+						<a href="atualizaremprego2.html" class="button primary fit small" target="_blank">Atualizar
+							Emprego</a>
+						<li>&nbsp;</li>
+						<input type="submit" class="button fit small" name="enviar" value="Apagar emprego"
+							onclick="EventoApagarEmprego()">
+					</ul>
+				</div>
+
 				<hr />
 				<h2 style="text-align: center;">Tem uma vaga de Emprego para divulgar?</h2>
 				<h3 style="text-align: center;">Envie para: <a
@@ -145,6 +157,8 @@
 	<script>
 		function EventoApagarEmprego() {
 			alert('Emprego apagado com sucesso!')
+			setTimeout(1)
+			window.location = "index.html"
 		}
 	</script>
 
